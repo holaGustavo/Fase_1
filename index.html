@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Security Store</h1>
+    </header>
+    <main>
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <!-- Product list will be populated here by script.js -->
+        </div>
+        <h2>Purchase</h2>
+        <form id="purchase-form">
+            <label for="customer_name">Your Name:</label>
+            <input type="text" id="customer_name" name="customer_name" required>
+            <label for="product_id">Product ID:</label>
+            <input type="number" id="product_id" name="product_id" required>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+            <button type="submit">Purchase</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Security Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
